@@ -1,0 +1,164 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+.table-striped th {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #333;
+}
+
+.table-striped td {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  font-weight: 200;
+  color: #555;
+}
+
+.table-striped td.negative {
+  color: red;
+}
+
+.page-container {
+  padding: 20px;
+}
+
+.table-header h3 {
+  font-family: 'YourCustomFont', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+
+  margin: 0;
+}
+
+.dropdown-container {
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.table-header {
+  background-color: #343a40;
+  color: #fff;
+  padding: 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.arrow {
+  font-size: 20px;
+  margin-right: 10px;
+  transition: transform 0.3s ease;
+}
+
+.arrow {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  cursor: pointer;
+}
+
+.arrow::before,
+.arrow::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 5px;
+  border-color: transparent;
+}
+
+.open .arrow::before {
+  top: 60%;
+  transform: translateY(-50%) rotate(45deg);
+}
+
+.open .arrow::after {
+  top: 40%;
+  transform: translateY(-50%) rotate(-45deg);
+}
+
+.table-container {
+  margin-bottom: 20px;
+  border: 1px solid #ced4da;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.table-header {
+  background-color: #343a40;
+  color: #fff;
+  padding: 12px 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.arrow {
+  font-size: 18px;
+  color: #fff;
+  margin-right: 8px;
+}
+
+.dropdown-content {
+  padding: 12px 0;
+  background-color: #fff;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th {
+  background-color: #343a40;
+  color: #fff;
+  padding: 12px 16px;
+  text-align: left;
+}
+
+.table td {
+  padding: 12px 16px;
+}
+
+.table tbody tr:hover {
+  background-color: #f0f0f0;
+}
+
+.rotated {
+  transform: rotate(180deg);
+}
+
+.dropdown-content {
+  padding: 10px;
+}
+
+.custom-table th,
+.custom-table td {
+  padding: 12px;
+}
+
+.custom-table th {
+  background-color: #343a40;
+  color: #fff;
+}
+
+.custom-table tbody tr:nth-child(odd) {
+  background-color: #f8f9fa;
+}
+
+.custom-table tbody tr:hover {
+  background-color: #e2e6ea;
+}

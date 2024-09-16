@@ -21,6 +21,5 @@ function useHoldingsApi() {
   }, []);
 
   return holdings;
-}
-
+} //This is for testing 6
 export default useHoldingsApi;

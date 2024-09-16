@@ -1,5 +1,5 @@
 import React from 'react';
-
+//This is for testing 4
 function Table({ holdings }) {
   return (
     <div className='dropdown-content'>
@@ -42,5 +42,5 @@ function Table({ holdings }) {
     </div>
   );
 }
-
+//This is for testing 5
 export default Table;

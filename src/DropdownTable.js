@@ -4,11 +4,11 @@ import Table from './Table';
 
 function DropdownTable({ title, holdings }) {
   const [isOpen, setIsOpen] = useState(false);
-
+//this is for testing purpose
   const toggleDropdown = () => {
     setIsOpen(!isOpen);
   };
-
+//This is for testing 2
   return (
     <div className={`dropdown-container ${isOpen ? 'open' : ''}`}>
       <div className='table-header' onClick={toggleDropdown}>
